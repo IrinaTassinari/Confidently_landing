@@ -1,0 +1,95 @@
+Текст: Inter
+
+     H1 :
+     Size: 56px, Bold (заголовок на главной странице);
+     Color: #0A2540;
+     Spacing: 1.2
+
+     H2:  
+     Size:40px, Bold (заголовок на всех других страницах, кроме главной);
+     Color: #0A2540;
+     Spacing: 1.2
+
+     H3: 
+     Size: 20 px bold/semibold (подзаголовок);
+     Color: #425466; 
+     Spacing: 1.2
+
+     H4:
+     Size: 20 px, semibold (заголовок на карточках);
+     Color: #0A2540;
+     Spacing: 1.2
+
+     Text (на карточках):
+     Size: 16px, normal
+     Color: #425466;
+     Spacing: 1.55 
+
+Buttons:
+
+  Primary:
+    BG Color: #3A25CE
+    Margin: 10px;
+    Border: 
+        Color: #3A25CE
+        Brdr size: 1px;
+        Radius: 4px;
+    Text: 
+        Color: #FFFFFF
+        Size: 18px;
+        Weight: semibold;
+
+Primary hover:
+    BG Color: #311fae;
+    Margin: 10px;
+    Border: 
+        Color: #311fae;
+        Brdr size: 1px;
+        Radius: 4px;
+    Text: 
+        Color: #FFFFFF
+        Size: 18px;
+        Weight: semibold;
+
+ Secondary :
+    BG Color: #FFFFFF00;
+    Margin: 10px;
+    Border: 
+        Color: #FF6A00;
+        Brdr size: 1px;
+        Radius: 4px;
+    Text: 
+        Color: #FF6A00;
+        Size: 18px;
+        Weight: semibold;
+
+Secondary hover:
+    BG Color: #FFFFFF;
+    Margin: 10px;
+    Border: 
+        Color: #311FAE;
+        Brdr size: 1px;
+        Radius: 4px;
+    Text: 
+        Color: #311FAE;
+        Size: 18px;
+        Weight: semibold;
+
+Gradients:
+
+#1
+Linear: #311fae (opacity:100%) - #004DFF (opacity 0%)
+Angle : 321
+
+#2
+Linear: #635BFF (opacity 100%) - #2652FF (opacity 40%)-#004DFF (opacity 0%)
+Angle : 290
+
+Borders (по краям экранов):
+BG Color: #E3E8EE
+opacity: 100%
+Weight: 2px;
+Borders (карточки):
+BG Color: #E3E8EE
+opacity: 100%
+Weight: 1px;
