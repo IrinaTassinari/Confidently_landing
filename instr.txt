@@ -1,5 +1,4 @@
 Текст: Inter
-
      H1 :
      Size: 56px, Bold (заголовок на главной странице);
      Color: #0A2540;
@@ -26,7 +25,6 @@
      Spacing: 1.55 
 
 Buttons:
-
   Primary:
     BG Color: #3A25CE
     Margin: 10px;
@@ -76,7 +74,6 @@ Secondary hover:
         Weight: semibold;
 
 Gradients:
-
 #1
 Linear: #311fae (opacity:100%) - #004DFF (opacity 0%)
 Angle : 321
@@ -93,3 +90,10 @@ Borders (карточки):
 BG Color: #E3E8EE
 opacity: 100%
 Weight: 1px;
+
+
+
+
+фичи
+фон
+медиа проверить
