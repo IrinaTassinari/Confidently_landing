@@ -26,8 +26,8 @@ body {
   margin: 0 auto;
   border-left: 2px solid var(--border);
   border-right: 2px solid var(--border);
-  /* background-color: inherit; */
-  background: #f8fafc;
+    /* background-color: inherit; */
+  /* background: #f8fafc; */
 }
 
 .container {
