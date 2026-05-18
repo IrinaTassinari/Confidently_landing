@@ -19,6 +19,7 @@
 body {
   font-family: "Inter", Arial, sans-serif;
   color: var(--text);
+   background: #f8fafc;
 }
 
 .page-frame {
@@ -26,8 +27,9 @@ body {
   margin: 0 auto;
   border-left: 2px solid var(--border);
   border-right: 2px solid var(--border);
-    /* background-color: inherit; */
-  /* background: #f8fafc; */
+}
+main.page-frame {
+  background: #f8fafc;
 }
 
 .container {
