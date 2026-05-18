@@ -26,7 +26,8 @@ body {
   margin: 0 auto;
   border-left: 2px solid var(--border);
   border-right: 2px solid var(--border);
-  background-color: inherit;
+  /* background-color: inherit; */
+  background: #f8fafc;
 }
 
 .container {
@@ -110,7 +111,7 @@ body {
   justify-content: center;
   border: 1px solid var(--orange);
   border-radius: 4px;
-  background: transparent;
+  background-color: #ffffff;
   color: var(--orange);
   font-family: inherit;
   font-size: 14px;
@@ -199,7 +200,8 @@ body {
 }
 
 .hero {
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  /* background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); */
+  background: #f8fafc;
   overflow: visible;
 }
 
@@ -241,8 +243,8 @@ body {
 
 .hero__copy {
   margin-top: clamp(32px, 4vw, 50px);
-  max-width: 460px;
   font-size: clamp(16px, 1.6vw, 20px);
+  max-width: 460px;
   line-height: 1.18;
   color: var(--text);
 }
@@ -257,9 +259,12 @@ body {
 }
 
 .hero__actions {
-  margin-top: clamp(32px, 4vw, 50px);
+  /* margin-top: clamp(32px, 4vw, 50px); */
+  margin-top: clamp(32px, 4vw, 81px);
+  font-size: clamp(16px, 1.6vw, 20px);
   display: flex;
   flex-wrap: wrap;
+   line-height: 1.18;
   gap: 20px;
 }
 
@@ -301,7 +306,7 @@ body {
 .btn--secondary {
   width: 210px;
   padding: 0 28px;
-  background: transparent;
+   background-color: #ffffff;
   border: 1px solid var(--orange);
   color: var(--orange);
 }
@@ -357,14 +362,6 @@ body {
   left: 60%;
   top: clamp(70px, 8vw, 151px);
   transform: translateX(-50%);
-
-  /* background: radial-gradient(
-    circle,
-    rgba(99, 91, 255, 0.18) 0%,
-    rgba(99, 91, 255, 0.12) 48%,
-    rgba(99, 91, 255, 0.05) 75%,
-    rgba(99, 91, 255, 0) 100%
-  ); */
     
     background: radial-gradient(
       circle,
@@ -377,13 +374,13 @@ body {
 }
 
 .hero__image {
-  position: absolute;
-  z-index: 2;
-  width: clamp(420px, 42vw, 599px);
-  height: auto;
-  left: 50%;
-  top: clamp(50px, 6vw, 76px);
-  transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+    width: clamp(420px, 42vw, 599px);
+    height: auto;
+    left: 59%;
+    top: clamp(50px, 6vw, 24px);
+    transform: translateX(-51%);
 }
 
 .ticker-section {
@@ -499,7 +496,8 @@ body {
 .audience-section {
   min-height: 1017px;
   padding: clamp(72px, 7vw, 120px) 0;
-  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  /* background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); */
+  background: #f8fafc;
 }
 
 .audience-section__container {
@@ -510,8 +508,8 @@ body {
 
 .audience-section__title {
   margin: 0;
-  /* color: var(--orange); */
-  color: var(--navy);
+  color: var(--orange);
+  /* color: var(--navy); */
   font-size: clamp(28px, 4vw, 40px);
   line-height: 1.2;
   font-weight: 700;
