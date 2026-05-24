@@ -27,8 +27,10 @@ const legalCloseButtons = document.querySelectorAll("[data-legal-close]");
 
 function openLegalModal(url, title) {
   legalTitle.textContent = title;
-  legalIframe.src = url;
-  legalIframe.title = title;
+  if (legalIframe) {
+    legalIframe.src = url;
+    legalIframe.title = title;
+  }
   legalModal.classList.add("is-open");
   legalModal.setAttribute("aria-hidden", "false");
   document.body.classList.add("legal-modal-open");
@@ -38,8 +40,10 @@ function closeLegalModal() {
   legalModal.classList.remove("is-open");
   legalModal.setAttribute("aria-hidden", "true");
   document.body.classList.remove("legal-modal-open");
-  legalIframe.src = "";
-  legalIframe.title = "";
+  if (legalIframe) {
+    legalIframe.src = "";
+    legalIframe.title = "";
+  }
 }
 
 legalLinks.forEach((link) => {

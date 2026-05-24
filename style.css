@@ -202,7 +202,6 @@ main.page-frame {
 }
 
 .hero {
-  /* background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); */
   background: #f8fafc;
   overflow: visible;
 }
@@ -234,11 +233,6 @@ main.page-frame {
   color: var(--navy);
 }
 
-/* .hero__title .hero__title-main {
-  color: var(--orange);
-  font-size: 104px;
-} */
-
 .hero__title .hero__title-main {
   color: var(--orange);
   font-size: clamp(56px, 7.2vw, 104px);
@@ -267,7 +261,6 @@ main.page-frame {
 
 .hero__actions {
   margin-top: clamp(32px, 4vw, 50px);
-  /* margin-top: clamp(32px, 4vw, 81px); */
   font-size: clamp(16px, 1.6vw, 20px);
   display: flex;
   flex-wrap: wrap;
@@ -492,7 +485,6 @@ main.page-frame {
 .audience-section {
   min-height: 1017px;
   padding: clamp(72px, 7vw, 120px) 0;
-  /* background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); */
   background: #f8fafc;
 }
 
@@ -505,7 +497,6 @@ main.page-frame {
 .audience-section__title {
   margin: 0;
   color: var(--orange);
-  /* color: var(--navy); */
   font-size: clamp(28px, 4vw, 40px);
   line-height: 1.2;
   font-weight: 700;
@@ -717,7 +708,7 @@ main.page-frame {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 30x;
   line-height: 1.2;
 }
 
@@ -1319,7 +1310,6 @@ main.page-frame {
 }
 
 .footer-section .page-frame {
-  /* border-color: #151515; */
   border-color:rgba(58, 37, 206, 0.8);
 }
 
@@ -1435,6 +1425,34 @@ main.page-frame {
   height: calc(100% - 56px);
   display: block;
   border: 0;
+}
+
+.legal-modal__placeholder {
+  height: calc(100% - 56px);
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  color: var(--navy);
+  background: #f8fafc;
+  box-sizing: border-box;
+}
+
+.legal-modal__placeholder h3 {
+  margin: 0;
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.legal-modal__placeholder p {
+  margin: 0;
+  color: rgba(10, 37, 64, 0.68);
+  font-size: 17px;
+  line-height: 1.45;
 }
 
 body.legal-modal-open {
@@ -2117,20 +2135,6 @@ body.legal-modal-open {
 }
 
 @media (max-width: 600px) {
-  /* .header-container {
-    width: min(calc(100% - 80px), 1680px);
-  }
-
-  .page-frame {
-    width: min(calc(100% - 80px), 1680px);
-  }
-
-  .access-container {
-    width: min(calc(100% - 80px), 1680px);
-    min-height: 0;
-    padding: 64px 25px 88px;
-  } */
-
   .header-container,
   .page-frame,
   .access-container {
@@ -2166,7 +2170,7 @@ body.legal-modal-open {
   }
 
   .access-audio-image {
-    width: 182px;
+    width: 186px;
     left: 86px;
   }
 
@@ -2226,9 +2230,6 @@ body.legal-modal-open {
 }
 
 @media (max-width: 560px) {
-  /* .container {
-    width: calc(100% - 12px);
-  } */
    .audience-section__container,
   .features-section .container {
     width: calc(100vw - 18px);
@@ -2251,29 +2252,37 @@ body.legal-modal-open {
 }
 
 @media (max-width: 450px) {
-  /* .header-container {
-    width: min(calc(100% - 65px), 1680px);
-  } */
-
   .header-logo-name {
       font-size: 18px;
   line-height: 1;
   font-weight: 600;
   }
-
-  /* .page-frame {
-    width: min(calc(100% - 65px), 1680px);
-  }
-  .access-container {
-    width: min(calc(100% - 65px), 1680px);
-  } */
-  /* .access-left-visual {
-    display: none;
-  } */
   .access-left-visual {
     display: block;
     width: 280px;
     height: 240px;
+  }
+
+  .access-sidebar-image {
+    width: 112px;
+    top: 74px;
+  }
+
+  .access-audio-image {
+    width: 164px;
+    left: 76px;
+  }
+
+  .access-word-image {
+    width: 144px;
+    left: 62px;
+    top: 158px;
+  }
+
+  .access-practice-image {
+    width: 150px;
+    left: 128px;
+    top: 104px;
   }
 
   .access-visual {
@@ -2284,20 +2293,17 @@ body.legal-modal-open {
   .access-exchange {
     margin-top: 0;
   }
+
+  .access-exchange h3 {
+    margin-top: 50px;
+  }
+
   .footer-container {
     padding: 26px 20px;
   }
 }
 
 @media (max-width: 420px) {
-  /* .page-frame {
-    width: min(calc(100% - 15px), 1680px);
-  }
-
-  .access-container {
-    width: min(calc(100% - 15px), 1680px);
-  } */
-
   .hero__title {
     font-size: 34px;
   }
@@ -2328,14 +2334,6 @@ body.legal-modal-open {
     margin-right: auto;
   }
 
-  /* .access-practice-image {
-    display: none;
-  } */
-
-  .access-left-visual .access-practice-image {
-  display: none;
-}
-
   .access-sidebar-image {
     width: 112px;
     top: 74px;
@@ -2350,6 +2348,12 @@ body.legal-modal-open {
     width: 144px;
     left: 62px;
     top: 158px;
+  }
+
+  .access-practice-image {
+    width: 150px;
+    left: 128px;
+    top: 104px;
   }
 
   .footer-container {
